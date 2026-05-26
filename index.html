@@ -2508,7 +2508,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>차세대 EMR</b> · AI 재진환자 관리 차별화 전략 기획안</div>
-    <div class="page">02 / 25</div>
+    <div class="page">02 / 26</div>
   </div>
   <div class="body">
     <div class="eyebrow">Contents</div>
@@ -2580,38 +2580,71 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>01</b> · Executive Summary</div>
-    <div class="page">04 / 25</div>
+    <div class="page">04 / 26</div>
   </div>
-  <div class="body">
+  <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="eyebrow">Top-line Message</div>
-    <h1 class="slide-title">차세대 EMR AI 재진환자 관리의 <em>차별화 포인트</em></h1>
+    <h1 class="slide-title" style="font-size: 26px;">AI 재진환자 관리의 <em>차별화 포인트</em></h1>
 
-    <div class="quote-box" style="margin-top: 16px;">
-      <span class="em-red">리비짓 · 애프터닥</span>은 환자를 검색·입력하고 템플릿을 선택해야 하지만,<br>
-      <span class="em-blue">차세대 EMR</span>은 진료 중인 환자 자동 인식 + 진료 맥락 기반 CRM 템플릿 자동 추천
+    <!-- As-Is vs To-Be 비교 -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 18px;">
+      <!-- As-Is 박스 -->
+      <div style="background: white; border: 1px solid var(--line); border-radius: 8px; padding: 18px 22px;">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+          <span style="font-size: 11px; color: var(--red); font-weight: 700; display: inline-flex; align-items: center; gap: 4px; background: var(--red-soft); padding: 4px 10px; border-radius: 100px;">● 리비짓·애프터닥</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); font-weight: 700; letter-spacing: 0.1em;">EXTERNAL</span>
+        </div>
+        <div style="font-size: 18px; font-weight: 700; color: var(--ink); line-height: 1.45; letter-spacing: -0.01em;">
+          환자를 <span style="color: var(--red);">검색·입력</span>하고<br>
+          템플릿을 <span style="color: var(--red);">선택</span>해야 한다
+        </div>
+      </div>
+      <!-- To-Be 박스 (강조) -->
+      <div style="background: linear-gradient(135deg, #0B1F3D 0%, #0B4A8A 100%); border-radius: 8px; padding: 18px 22px; color: white; box-shadow: 0 4px 14px rgba(11,74,138,0.25);">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+          <span style="font-size: 11px; color: white; font-weight: 700; display: inline-flex; align-items: center; gap: 4px; background: var(--green); padding: 4px 10px; border-radius: 100px;">● AI 재진관리</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.6); font-weight: 700; letter-spacing: 0.1em;">EMR-NATIVE</span>
+        </div>
+        <div style="font-size: 18px; font-weight: 700; line-height: 1.45; letter-spacing: -0.01em;">
+          진료 중인 환자를 <span style="color: #6BC7FF;">자동 인식</span>하고<br>
+          진료 맥락 기반으로 CRM 템플릿을 <span style="color: #6BC7FF;">자동 추천</span>한다
+        </div>
+      </div>
     </div>
 
-    <div class="note" style="margin-top: 16px;">
-      외부 솔루션이 구조적으로 가질 수 없는 <b>진료실 맥락 연결 + 차트 DB 연동 가치</b> = 핵심 차별화 축
+    <!-- 결론 한 줄 -->
+    <div style="margin-top: 14px; background: var(--blue-soft); border-radius: 6px; padding: 12px 20px; text-align: center; font-size: 13px; color: var(--ink2); line-height: 1.55;">
+      외부 솔루션(리비짓·애프터닥)이 <b style="color: var(--red);">구조적으로 가질 수 없는</b> <b style="color: var(--brand);">진료실 맥락 연결</b>과 <b style="color: var(--brand);">차트 DB 연동 가치</b>를 핵심 차별화 축으로 가져갑니다.
     </div>
 
-    <div style="margin-top: 24px;">
-      <div class="eyebrow" style="margin-bottom: 10px;">Phase별 전략</div>
-      <div class="grid-2" style="margin-top: 8px;">
-        <div class="phase-card">
-          <span class="ph">Phase 1 · 1순위</span>
-          <h3>환자 정보 + CRM 템플릿 자동화</h3>
-          <div class="hyp">
-            <b>DB 연동 + 진료 맥락 기반 자동 제안</b><br>
-            <span style="font-size:12px;">환자 검색·정보 입력·템플릿 선택 없이 자동 추천·컨펌·발송</span>
+    <!-- 차별화 전략 2가지 (Phase별) - 가볍게 To-Be 하위 전략처럼 -->
+    <div style="margin-top: 18px;">
+      <div style="font-size: 14px; font-weight: 800; color: var(--ink); margin-bottom: 10px; letter-spacing: -0.01em;">차별화 전략 2가지 <span style="color: var(--muted); font-weight: 600; font-size: 12px;">(Phase별)</span></div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+        <!-- PHASE 1 -->
+        <div style="background: white; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px 16px 18px;">
+          <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 8px;">
+            <span style="background: #0B1F3D; color: white; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 800; padding: 4px 10px; border-radius: 100px; letter-spacing: 0.06em;">PHASE 1</span>
+            <span style="background: var(--red); color: white; font-size: 10px; font-weight: 700; padding: 3px 9px; border-radius: 100px;">1순위</span>
+          </div>
+          <div style="font-size: 17px; font-weight: 800; color: var(--ink); line-height: 1.35; letter-spacing: -0.015em; margin-bottom: 4px;">환자 정보 + CRM 템플릿 자동화</div>
+          <div style="font-size: 12px; color: var(--muted); margin-bottom: 14px;">DB 연동 + 진료 맥락 기반 자동 제안</div>
+          <div style="background: #F4F6F8; border-radius: 4px; padding: 10px 12px;">
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--muted); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">ONE-LINER</div>
+            <div style="font-size: 12.5px; color: var(--ink); line-height: 1.5; font-weight: 700;">환자 검색·정보 입력·템플릿 선택 없이<br>자동 추천·컨펌·발송</div>
           </div>
         </div>
-        <div class="phase-card p2">
-          <span class="ph">Phase 2 · 2순위</span>
-          <h3>검사·검진 결과 기반 팔로업 시기 세분화</h3>
-          <div class="hyp">
-            <b>결과 데이터(수치·소견) 기반 분기 자동화</b><br>
-            <span style="font-size:12px;">진료 가이드 기반의 정교한 팔로업</span>
+        <!-- PHASE 2 -->
+        <div style="background: white; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px 16px 18px;">
+          <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 8px;">
+            <span style="background: white; color: var(--ink); border: 1px solid var(--line); font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 800; padding: 3px 10px; border-radius: 100px; letter-spacing: 0.06em;">PHASE 2</span>
+            <span style="background: var(--gray-soft); color: var(--muted); font-size: 10px; font-weight: 700; padding: 3px 9px; border-radius: 100px;">2순위</span>
+          </div>
+          <div style="font-size: 17px; font-weight: 800; color: var(--ink); line-height: 1.35; letter-spacing: -0.015em; margin-bottom: 4px;">검사·검진 결과 기반<br>팔로업 시기 세분화</div>
+          <div style="font-size: 12px; color: var(--muted); margin-bottom: 14px;">결과 데이터(수치·소견) 기반 분기 자동화</div>
+          <div style="background: #F4F6F8; border-radius: 4px; padding: 10px 12px;">
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--muted); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">ONE-LINER</div>
+            <div style="font-size: 12.5px; color: var(--ink); line-height: 1.5; font-weight: 700;">진료 가이드 기반<br>정교한 팔로업</div>
           </div>
         </div>
       </div>
@@ -2629,57 +2662,89 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>01</b> · Executive Summary</div>
-    <div class="page">05 / 25</div>
+    <div class="page">05 / 26</div>
   </div>
-  <div class="body">
-    <div class="eyebrow">Differentiation Pillars</div>
-    <h1 class="slide-title">4가지 <em>핵심 차별화 축</em></h1>
+  <div class="body" style="padding: 28px 56px 22px 56px;">
+    <div class="eyebrow">Differentiation Pillars · As-Is → To-Be</div>
+    <h1 class="slide-title" style="font-size: 26px;">4가지 한계 → <em>AI 재진관리 가치 창출</em></h1>
     <p class="subtitle">외부 솔루션이 구조적으로 갖지 못하는 영역 = AI 재진관리가 진입할 영역</p>
 
-    <div class="pillars" style="margin-top: 20px;">
-      <div class="pillar">
-        <div class="pn">01</div>
-        <div class="ptt">환자 DB 연동</div>
-        <div class="compare">
-          <div class="lbl">외부 솔루션 한계</div>
-          <div class="bad">매일 환자 DB 별도 업로드</div>
-          <div class="lbl">AI 재진관리 가치</div>
-          <div class="good">차트 등록 = CRM DB 등록 자동 연동</div>
+    <!-- 4개 As-Is → To-Be 카드 -->
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 20px;">
+      <!-- 01 -->
+      <div style="background: white; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="padding: 12px 14px 10px 14px; border-bottom: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: 800; color: var(--blue-soft); line-height: 1; position: absolute;">01</div>
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--brand); font-weight: 800; letter-spacing: 0.1em; margin-bottom: 4px;">PILLAR 01</div>
+          <div style="font-size: 14px; font-weight: 800; color: var(--ink); letter-spacing: -0.01em; line-height: 1.3;">환자 DB 연동</div>
+        </div>
+        <!-- As-Is 영역 -->
+        <div style="padding: 10px 14px; background: var(--red-soft); border-bottom: 1px dashed rgba(196,43,43,0.3);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--red); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">AS-IS · 한계</div>
+          <div style="font-size: 12px; color: var(--ink2); line-height: 1.5;">매일 환자 DB <b>별도 업로드</b></div>
+        </div>
+        <!-- 화살표 -->
+        <div style="text-align: center; color: var(--brand); font-size: 14px; padding: 2px 0; font-weight: 800;">↓</div>
+        <!-- To-Be 영역 -->
+        <div style="padding: 10px 14px; background: var(--blue-soft); flex: 1;">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--brand); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">TO-BE · 가치</div>
+          <div style="font-size: 12px; color: var(--ink); line-height: 1.5; font-weight: 700;">차트 등록 = CRM DB 등록 <b style="color: var(--brand);">자동 연동</b></div>
         </div>
       </div>
-      <div class="pillar">
-        <div class="pn">02</div>
-        <div class="ptt">진료 맥락 기반 자동 제안</div>
-        <div class="compare">
-          <div class="lbl">외부 솔루션 한계</div>
-          <div class="bad">사용자가 환자별 템플릿 직접 선택</div>
-          <div class="lbl">AI 재진관리 가치</div>
-          <div class="good">SOAP·증상메모·처방 키워드 자동 감지</div>
+
+      <!-- 02 -->
+      <div style="background: white; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="padding: 12px 14px 10px 14px; border-bottom: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--brand); font-weight: 800; letter-spacing: 0.1em; margin-bottom: 4px;">PILLAR 02</div>
+          <div style="font-size: 14px; font-weight: 800; color: var(--ink); letter-spacing: -0.01em; line-height: 1.3;">진료 맥락 기반 자동 제안</div>
+        </div>
+        <div style="padding: 10px 14px; background: var(--red-soft); border-bottom: 1px dashed rgba(196,43,43,0.3);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--red); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">AS-IS · 한계</div>
+          <div style="font-size: 12px; color: var(--ink2); line-height: 1.5;">사용자가 환자별 템플릿 <b>직접 선택</b></div>
+        </div>
+        <div style="text-align: center; color: var(--brand); font-size: 14px; padding: 2px 0; font-weight: 800;">↓</div>
+        <div style="padding: 10px 14px; background: var(--blue-soft); flex: 1;">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--brand); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">TO-BE · 가치</div>
+          <div style="font-size: 12px; color: var(--ink); line-height: 1.5; font-weight: 700;">SOAP·증상메모·처방 키워드 <b style="color: var(--brand);">자동 감지</b></div>
         </div>
       </div>
-      <div class="pillar">
-        <div class="pn">03</div>
-        <div class="ptt">차트 발송 이력 자동 누적</div>
-        <div class="compare">
-          <div class="lbl">외부 솔루션 한계</div>
-          <div class="bad">외부에 별도 저장 → 의무기록 단절</div>
-          <div class="lbl">AI 재진관리 가치</div>
-          <div class="good">차트에 발송 이력 자동 기록</div>
+
+      <!-- 03 -->
+      <div style="background: white; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="padding: 12px 14px 10px 14px; border-bottom: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--brand); font-weight: 800; letter-spacing: 0.1em; margin-bottom: 4px;">PILLAR 03</div>
+          <div style="font-size: 14px; font-weight: 800; color: var(--ink); letter-spacing: -0.01em; line-height: 1.3;">차트 발송 이력 자동 누적</div>
+        </div>
+        <div style="padding: 10px 14px; background: var(--red-soft); border-bottom: 1px dashed rgba(196,43,43,0.3);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--red); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">AS-IS · 한계</div>
+          <div style="font-size: 12px; color: var(--ink2); line-height: 1.5;">외부에 별도 저장 → <b>의무기록 단절</b></div>
+        </div>
+        <div style="text-align: center; color: var(--brand); font-size: 14px; padding: 2px 0; font-weight: 800;">↓</div>
+        <div style="padding: 10px 14px; background: var(--blue-soft); flex: 1;">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--brand); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">TO-BE · 가치</div>
+          <div style="font-size: 12px; color: var(--ink); line-height: 1.5; font-weight: 700;">차트에 발송 이력 <b style="color: var(--brand);">자동 기록</b></div>
         </div>
       </div>
-      <div class="pillar">
-        <div class="pn">04</div>
-        <div class="ptt">환자 식별 보장</div>
-        <div class="compare">
-          <div class="lbl">외부 솔루션 한계</div>
-          <div class="bad">전화번호 오기입 → 타인 전송 위험</div>
-          <div class="lbl">AI 재진관리 가치</div>
-          <div class="good">차트 기반 발송 → 100% 환자 식별</div>
+
+      <!-- 04 -->
+      <div style="background: white; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="padding: 12px 14px 10px 14px; border-bottom: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--brand); font-weight: 800; letter-spacing: 0.1em; margin-bottom: 4px;">PILLAR 04</div>
+          <div style="font-size: 14px; font-weight: 800; color: var(--ink); letter-spacing: -0.01em; line-height: 1.3;">환자 식별 보장</div>
+        </div>
+        <div style="padding: 10px 14px; background: var(--red-soft); border-bottom: 1px dashed rgba(196,43,43,0.3);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--red); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">AS-IS · 한계</div>
+          <div style="font-size: 12px; color: var(--ink2); line-height: 1.5;">전화번호 오기입 → <b>타인 전송 위험</b></div>
+        </div>
+        <div style="text-align: center; color: var(--brand); font-size: 14px; padding: 2px 0; font-weight: 800;">↓</div>
+        <div style="padding: 10px 14px; background: var(--blue-soft); flex: 1;">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--brand); font-weight: 800; letter-spacing: 0.12em; margin-bottom: 4px;">TO-BE · 가치</div>
+          <div style="font-size: 12px; color: var(--ink); line-height: 1.5; font-weight: 700;">차트 기반 발송 → <b style="color: var(--brand);">100% 환자 식별</b></div>
         </div>
       </div>
     </div>
 
-    <div class="insight" style="margin-top: 24px;">
+    <div class="insight" style="margin-top: 18px; padding: 18px 24px;">
       <div class="lbl">Conclusion</div>
       <div class="msg">
         외부 솔루션의 케이스·시점 자동화 기능 + <span class="hl">EMR 차트 DB 연동 가치</span>의 결합 —<br>
@@ -2694,7 +2759,89 @@
 </section>
 
 <!-- ============================================================
-     SLIDE 6: SECTION 2 DIVIDER
+     SLIDE 6 (신규): As-Is vs To-Be 화면 비교 — 차별화 화면 구현
+============================================================ -->
+<section class="slide">
+  <div class="slide-head">
+    <div class="crumb"><b>01</b> · Executive Summary · 차별화 화면</div>
+    <div class="page">06 / 26</div>
+  </div>
+  <div class="body" style="padding: 24px 48px 16px 48px;">
+    <div class="eyebrow">Differentiation Screens · As-Is → To-Be</div>
+    <h1 class="slide-title" style="font-size: 24px;">차별화 화면 구현 — <em>As-Is vs To-Be</em></h1>
+    <p class="subtitle" style="margin-bottom: 14px;">환자 정보 입력·검색·태그 라벨링이 사라지고, 진료 맥락이 자동 추출되는 화면으로 전환</p>
+
+    <!-- As-Is / To-Be 라벨 -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 8px;">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="background: var(--red); color: white; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 800; padding: 3px 10px; border-radius: 3px; letter-spacing: 0.08em;">AS-IS</span>
+        <span style="font-size: 12px; color: var(--ink); font-weight: 700;">외부 솔루션 — 사용자가 환자를 검색하고 태그를 직접 라벨링</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="background: var(--brand); color: white; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 800; padding: 3px 10px; border-radius: 3px; letter-spacing: 0.08em;">TO-BE</span>
+        <span style="font-size: 12px; color: var(--ink); font-weight: 700;">AI 재진관리 — 차트 기반 자동 인식 + 진료 맥락 기반 자동 추천</span>
+      </div>
+    </div>
+
+    <!-- 2x2 화면 비교 (As-Is 2장 / To-Be 2장) -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+      <!-- AS-IS 컬럼 -->
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <!-- 1. 리비짓 환자 정보 입력 -->
+        <div style="background: white; border: 1px solid var(--line); border-left: 3px solid var(--red); border-radius: 6px; overflow: hidden;">
+          <div style="padding: 8px 12px; display: flex; align-items: center; gap: 8px; background: var(--red-soft);">
+            <span style="background: var(--red); color: white; font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 3px;">리비짓</span>
+            <span style="font-size: 11.5px; color: var(--ink); font-weight: 700;">전화번호·이름 수기 입력 → 템플릿 직접 선택</span>
+          </div>
+          <div style="background: #F4F6F8; padding: 8px; display: flex; align-items: center; justify-content: center; min-height: 145px;">
+            <img src="assets/revisit-input.png" alt="리비짓 환자 정보 입력" style="max-width: 100%; max-height: 145px; object-fit: contain; border-radius: 4px; border: 1px solid var(--line);">
+          </div>
+        </div>
+        <!-- 2. 애프터닥 환자 등록·태그 -->
+        <div style="background: white; border: 1px solid var(--line); border-left: 3px solid var(--red); border-radius: 6px; overflow: hidden;">
+          <div style="padding: 8px 12px; display: flex; align-items: center; gap: 8px; background: var(--red-soft);">
+            <span style="background: var(--red); color: white; font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 3px;">애프터닥</span>
+            <span style="font-size: 11.5px; color: var(--ink); font-weight: 700;">환자 등록 + 시점 태그(3·5·7·30일) 수기 라벨링</span>
+          </div>
+          <div style="background: #F4F6F8; padding: 8px; display: flex; align-items: center; justify-content: center; min-height: 145px;">
+            <img src="assets/afterdoc-1-classify.png" alt="애프터닥 환자 등록 태그" style="max-width: 100%; max-height: 145px; object-fit: contain; border-radius: 4px; border: 1px solid var(--line);">
+          </div>
+        </div>
+      </div>
+
+      <!-- TO-BE 컬럼 -->
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <!-- 3. AI 팔로업 대기 리스트 -->
+        <div style="background: white; border: 1px solid var(--brand); border-left: 3px solid var(--brand); border-radius: 6px; overflow: hidden; box-shadow: 0 3px 10px rgba(11,74,138,0.12);">
+          <div style="padding: 8px 12px; display: flex; align-items: center; gap: 8px; background: var(--blue-soft);">
+            <span style="background: var(--brand); color: white; font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 3px;">AI 재진관리</span>
+            <span style="font-size: 11.5px; color: var(--ink); font-weight: 700;">팔로업 대기 리스트 — 진료 맥락 기반 자동 추출</span>
+          </div>
+          <div style="background: #F4F6F8; padding: 8px; display: flex; align-items: center; justify-content: center; min-height: 145px;">
+            <img src="assets/ai-followup-list.png" alt="AI 팔로업 대기 리스트" style="max-width: 100%; max-height: 145px; object-fit: contain; border-radius: 4px; border: 1px solid var(--line);">
+          </div>
+        </div>
+        <!-- 4. AI 모니터링 보드 -->
+        <div style="background: white; border: 1px solid var(--brand); border-left: 3px solid var(--brand); border-radius: 6px; overflow: hidden; box-shadow: 0 3px 10px rgba(11,74,138,0.12);">
+          <div style="padding: 8px 12px; display: flex; align-items: center; gap: 8px; background: var(--blue-soft);">
+            <span style="background: var(--brand); color: white; font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 3px;">AI 재진관리</span>
+            <span style="font-size: 11.5px; color: var(--ink); font-weight: 700;">모니터링 보드 — 오늘 내원 예정 + 팔로업 타임라인 통합</span>
+          </div>
+          <div style="background: #F4F6F8; padding: 8px; display: flex; align-items: center; justify-content: center; min-height: 145px;">
+            <img src="assets/ai-monitoring.png" alt="AI 모니터링 보드" style="max-width: 100%; max-height: 145px; object-fit: contain; border-radius: 4px; border: 1px solid var(--line);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-foot">
+    <div>차세대 EMR · 부가개발팀 · 오채아</div>
+    <div>CONFIDENTIAL</div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SLIDE 7: SECTION 2 DIVIDER
 ============================================================ -->
 <section class="slide section-div">
   <div class="num">02</div>
@@ -2715,7 +2862,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 인터뷰 인사이트</div>
-    <div class="page">07 / 25</div>
+    <div class="page">08 / 26</div>
   </div>
   <div class="body">
     <div class="eyebrow">Definition</div>
@@ -2768,7 +2915,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 종합 인사이트</div>
-    <div class="page">08 / 25</div>
+    <div class="page">09 / 26</div>
   </div>
   <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="eyebrow">2.1.2 Synthesis · Insight → Conclusion</div>
@@ -2855,7 +3002,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 인터뷰 인사이트</div>
-    <div class="page">09 / 25</div>
+    <div class="page">10 / 26</div>
   </div>
   <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="eyebrow">2.1.3 Interview Segmentation</div>
@@ -2938,7 +3085,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 분류 A</div>
-    <div class="page">10 / 25</div>
+    <div class="page">11 / 26</div>
   </div>
   <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="chap-eyebrow A">A. 외부 솔루션 사용형</div>
@@ -3023,7 +3170,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 분류 B</div>
-    <div class="page">11 / 25</div>
+    <div class="page">12 / 26</div>
   </div>
   <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="chap-eyebrow B">B. 자체 우회 시스템 운영형</div>
@@ -3132,7 +3279,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 분류 C</div>
-    <div class="page">12 / 25</div>
+    <div class="page">13 / 26</div>
   </div>
   <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="chap-eyebrow C">C. 재진환자 관리 미운영형</div>
@@ -3237,7 +3384,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 케이스 분석</div>
-    <div class="page">13 / 25</div>
+    <div class="page">14 / 26</div>
   </div>
   <div class="body" style="padding: 22px 48px 14px 48px;">
     <div class="eyebrow">2.1.4 Case Study · 지인내과의원 약어 운영 시스템</div>
@@ -3401,7 +3548,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 경쟁사 리서치</div>
-    <div class="page">14 / 25</div>
+    <div class="page">15 / 26</div>
   </div>
   <div class="body" style="padding: 22px 56px 16px 56px;">
     <div class="eyebrow">2.2 Competitor Solutions · Pain → Solution Mapping</div>
@@ -3543,7 +3690,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 경쟁사 리서치</div>
-    <div class="page">15 / 25</div>
+    <div class="page">16 / 26</div>
   </div>
   <div class="body" style="padding: 26px 56px 18px 56px;">
     <div class="eyebrow">Competitor #1 · Revisit</div>
@@ -3667,7 +3814,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 경쟁사 리서치</div>
-    <div class="page">16 / 25</div>
+    <div class="page">17 / 26</div>
   </div>
   <div class="body" style="padding: 26px 56px 18px 56px;">
     <div class="eyebrow">Competitor #2 · Afterdoc</div>
@@ -3800,7 +3947,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 경쟁사 리서치</div>
-    <div class="page">17 / 25</div>
+    <div class="page">18 / 26</div>
   </div>
   <div class="body" style="padding: 26px 56px 20px 56px;">
     <div class="eyebrow">2.3 Real-world Operating Workflow · 서초연세내과 케이스</div>
@@ -3919,7 +4066,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>02</b> · As-Is Analysis · 비교 분석</div>
-    <div class="page">18 / 25</div>
+    <div class="page">19 / 26</div>
   </div>
   <div class="body" style="padding: 26px 56px 20px 56px;">
     <div class="eyebrow">Differentiation Matrix</div>
@@ -4071,7 +4218,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>03</b> · Core Strategy · 재진환자 관리 여정</div>
-    <div class="page">19 / 25</div>
+    <div class="page">20 / 26</div>
   </div>
   <div class="body" style="padding: 26px 56px 18px 56px;">
     <div class="eyebrow">Stage-by-Stage · As-Is vs To-Be</div>
@@ -4185,7 +4332,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>03</b> · Core Strategy · 타겟 세그먼트</div>
-    <div class="page">20 / 25</div>
+    <div class="page">21 / 26</div>
   </div>
   <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="eyebrow">Target Segment</div>
@@ -4327,7 +4474,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>04</b> · Action Plan · Phase 1</div>
-    <div class="page">21 / 25</div>
+    <div class="page">22 / 26</div>
   </div>
   <div class="body" style="padding: 24px 56px 18px 56px;">
     <div class="eyebrow">Phase 1 · MVP 1순위</div>
@@ -4443,7 +4590,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>04</b> · Phase 1 KPI · 자동 추천 → 컨펌 → 발송</div>
-    <div class="page">22 / 25</div>
+    <div class="page">23 / 26</div>
   </div>
   <div class="body" style="padding: 24px 56px 18px 56px;">
     <div class="eyebrow">Phase 1 KPI · Connected Funnel</div>
@@ -4566,7 +4713,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>04</b> · Action Plan · Phase 2</div>
-    <div class="page">23 / 25</div>
+    <div class="page">24 / 26</div>
   </div>
   <div class="body" style="padding: 28px 56px 22px 56px;">
     <div class="eyebrow">Phase 2 · 2순위</div>
@@ -4638,7 +4785,7 @@
 <section class="slide">
   <div class="slide-head">
     <div class="crumb"><b>04</b> · Phase 2 KPI · 데이터 + 세분화 → 재진율</div>
-    <div class="page">24 / 25</div>
+    <div class="page">25 / 26</div>
   </div>
   <div class="body" style="padding: 24px 56px 18px 56px;">
     <div class="eyebrow">Phase 2 KPI · Data → Outcome</div>
